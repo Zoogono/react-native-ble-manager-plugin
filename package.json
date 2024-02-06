@@ -1,5 +1,5 @@
 {
-  "name": "@matthewwarnes/react-native-ble-manager-plugin",
+  "name": "@zoogono/react-native-ble-manager-plugin",
   "version": "1.0.1",
   "description": "Config plugin to auto configure react-native-ble-manager on prebuild",
   "main": "build/withBLE.js",
@@ -7,7 +7,7 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/matthewwarnes/react-native-ble-manager-plugin.git"
+    "url": "https://github.com/Zoogono/react-native-ble-manager-plugin"
   },
   "files": [
     "build",
@@ -30,10 +30,10 @@
     "preset": "expo-module-scripts"
   },
   "peerDependencies": {
-    "expo": "^49.0.2"
+    "expo": "^50.0.6"
   },
   "devDependencies": {
     "expo-cli": "^6.3.10",
-    "expo-module-scripts": "^3.1.0"
+    "expo-module-scripts": "^3.4.1"
   }
 }

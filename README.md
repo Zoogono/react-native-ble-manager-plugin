@@ -1,14 +1,14 @@
 # matthewwarnes/react-native-ble-manager-plugin
 
 Based on @config-plugins/react-native-ble-plx. This project was forked from
-@matthewwarnes/react-native-ble-manager-plugin.
+atogear/react-native-ble-manager-plugin.
 
 Config plugin to auto-configure `react-native-ble-manager` when the native code
 is generated (`expo prebuild`).
 
 ## Expo installation
 
-> Tested against Expo SDK 46
+> Tested against Expo SDK 49
 
 > This package cannot be used in the "Expo Go" app because
 > [it requires custom native code](https://docs.expo.io/workflow/customizing/).
@@ -27,7 +27,7 @@ your `app.json` or `app.config.js`:
 ```json
 {
   "expo": {
-    "plugins": ["@matthewwarnes/react-native-ble-manager-plugin"]
+    "plugins": ["@zoogono/react-native-ble-manager-plugin"]
   }
 }
 ```
@@ -69,7 +69,7 @@ extra properties are added, defaults will be used.
   "expo": {
     "plugins": [
       [
-        "@matthewwarnes/react-native-ble-manager-plugin",
+        "@zoogono/react-native-ble-manager-plugin",
         {
           "isBackgroundEnabled": true,
           "modes": ["peripheral", "central"],
