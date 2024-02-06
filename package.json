@@ -1,6 +1,6 @@
 {
   "name": "@zoogono/react-native-ble-manager-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Config plugin to auto configure react-native-ble-manager on prebuild",
   "main": "build/withBLE.js",
   "types": "build/withBLE.d.ts",
